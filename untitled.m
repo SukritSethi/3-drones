@@ -46,11 +46,11 @@ dth = ZOUT(:,4);                % dth/dt                        [rad/s]
 x = r.*cos(th);                 % x position [m]
 y = r.*sin(th);                 % y position [m]
 
-x1 = r.*cos(th);                 % x position [m]
-y1 = r.*sin(th);                 % y position [m]
+x1 = (1.2*r).*cos(th);                 % x position [m]
+y1 = (1.2*r).*sin(th);                 % y position [m]
 
-x2 = r.*cos(th);                 % x position [m]
-y2 = r.*sin(th);                 % y position [m]
+x2 = (1.5*r).*cos(th);                 % x position [m]
+y2 = (1.5*r).*sin(th);                 % y position [m]
 
 % Speed
 v = sqrt(dr.^2 + (r.*dth).^2);  % [m/s]
